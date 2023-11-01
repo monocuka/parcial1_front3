@@ -1,12 +1,14 @@
-import Card from "./card";
+import Form from "./form";
+import "./App.css";
 
 const App = () => {
 
   return (
     <div className="App">
-      <h1>Carga de estudiantes</h1>
-      <form></form>
-      <Card />
+      <div className="title">
+      <h1>Escoge el tinte fantasia que mas te guste. </h1>
+      </div>
+      <Form />
     </div>
   );
 }
